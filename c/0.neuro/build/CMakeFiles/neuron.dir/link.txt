@@ -1,0 +1,1 @@
+/usr/bin/gcc-7 -g -rdynamic CMakeFiles/neuron.dir/main.c.o CMakeFiles/neuron.dir/neuron/neuron.c.o -o neuron  -lm 

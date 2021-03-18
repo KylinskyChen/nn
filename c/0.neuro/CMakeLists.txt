@@ -1,0 +1,22 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.12)
+
+PROJECT(neuron C)
+
+SET(BINARY neuron)
+
+INCLUDE_DIRECTORIES(
+  common
+  neuron
+)
+
+LINK_LIBRARIES(
+  -lm
+)
+
+ADD_EXECUTABLE(
+  ${BINARY}
+  main.c
+  neuron/neuron.c
+)
+
+SET(CMAKE_CXX_FLAGS “${CMAKE_CXX_FLAGS} -g”)

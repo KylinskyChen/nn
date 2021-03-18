@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../common/type.h
+
+../neuron/neuron.h
+type.h
+../neuron/type.h
+math.h
+../neuron/math.h
+
+/home/xiechen/11.nn/c/0.neuro/main.c
+neuron.h
+/home/xiechen/11.nn/c/0.neuro/neuron.h
+stdio.h
+/home/xiechen/11.nn/c/0.neuro/stdio.h
+

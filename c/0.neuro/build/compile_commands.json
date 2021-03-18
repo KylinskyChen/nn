@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/xiechen/11.nn/c/0.neuro/build",
+  "command": "/usr/bin/gcc-7  -I/home/xiechen/11.nn/c/0.neuro/common -I/home/xiechen/11.nn/c/0.neuro/neuron -g -o CMakeFiles/neuron.dir/main.c.o -c /home/xiechen/11.nn/c/0.neuro/main.c",
+  "file": "/home/xiechen/11.nn/c/0.neuro/main.c"
+},
+{
+  "directory": "/home/xiechen/11.nn/c/0.neuro/build",
+  "command": "/usr/bin/gcc-7  -I/home/xiechen/11.nn/c/0.neuro/common -I/home/xiechen/11.nn/c/0.neuro/neuron -g -o CMakeFiles/neuron.dir/neuron/neuron.c.o -c /home/xiechen/11.nn/c/0.neuro/neuron/neuron.c",
+  "file": "/home/xiechen/11.nn/c/0.neuro/neuron/neuron.c"
+}
+]
