@@ -22,9 +22,9 @@ public:
     Neuron(double *weight, double bias);
 
     double feedforward(double *inputs);
-    double activation(double inputs);
+    double activation(double input);
 
-    double sigmoid(double inputs);
+    double sigmoid(double input);
 
     void setWeight(double* value);
     double* getWeight(void);

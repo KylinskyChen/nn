@@ -21,7 +21,7 @@ int main(void)
 
     total = neuron.feedforward(inputs);
 
-    std::cout << "神经元的输出结果为：" << total << std::endl;
+    std::cout << ">> 神经元的输出结果为：" << total << std::endl;
 
     return 0;
 }

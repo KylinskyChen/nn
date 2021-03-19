@@ -38,17 +38,17 @@ double Neuron::feedforward(double* inputs)
 /*
  * 函数功能：sigmoid 激活函数；
  */
-double Neuron::sigmoid(double inputs)
+double Neuron::sigmoid(double input)
 {
-    return 1 / (1 + exp(-inputs));
+    return 1 / (1 + exp(-input));
 }
 
 /*
  * 函数功能：激活函数；
  */
-double Neuron::activation(double inputs)
+double Neuron::activation(double input)
 {
-    return this->sigmoid(inputs);
+    return this->sigmoid(input);
 }
 
 /*

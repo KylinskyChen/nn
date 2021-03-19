@@ -38,5 +38,5 @@ if __name__ == "__main__":
     output = nn.feedforward(x)
 
     # 输出神经元的结果；
-    print(output)
+    print(">> 神经元的输出结果为：", output)
 
