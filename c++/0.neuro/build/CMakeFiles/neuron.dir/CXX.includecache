@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../neuron/neuron.h
+string
+-
+cmath
+-
+
+/home/xiechen/11.nn/c++/0.neuro/main.cc
+iostream
+-
+neuron.h
+/home/xiechen/11.nn/c++/0.neuro/neuron.h
+
+/home/xiechen/11.nn/c++/0.neuro/neuron/neuron.cc
+neuron.h
+/home/xiechen/11.nn/c++/0.neuro/neuron/neuron.h
+
+/home/xiechen/11.nn/c++/0.neuro/neuron/neuron.h
+string
+-
+cmath
+-
+

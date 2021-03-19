@@ -1,0 +1,15 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.12)
+
+PROJECT(neuron CXX)
+
+SET(BINARY neuron)
+
+INCLUDE_DIRECTORIES(
+  neuron
+)
+
+ADD_EXECUTABLE(
+  ${BINARY}
+  main.cc
+  neuron/neuron.cc
+)
